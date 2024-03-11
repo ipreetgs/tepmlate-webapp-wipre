@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+.sub-headline {
+  font-size: 1.5em;
+}
+.cta-buttons {
+  margin: 20px 0;
+}
+.cta-buttons button {
+  margin-right: 10px;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .headline {
+            font-size: 2em;
+            font-weight: bold;
+            color: #0055a4;
+        }
+        .sub-headline {
+            font-size: 1.5em;
+            color: #007acc;
+        }
+        .cta-buttons {
+            margin: 20px 0;
+        }
+        .cta-buttons button {
+            margin-right: 10px;
+            background-color: #007acc;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .cta-buttons button:hover {
+            background-color: #0055a4;
+            color: white;
+        }
+        .value-propositions, .features {
+            list-style-type: none;
+            color: #333;
+        }
+        .value-propositions li, .features li {
+            margin-bottom: 10px;
+        }

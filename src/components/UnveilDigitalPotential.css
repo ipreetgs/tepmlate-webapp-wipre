@@ -1,0 +1,58 @@
+/* UnveilDigitalPotential.css */
+
+.udp-container {
+    padding: 20px;
+  }
+  
+  .udp-container h1 {
+    margin-top: 0;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .possibilities {
+    margin-bottom: 20px;
+  }
+  
+  .possibilities h2 {
+    margin-top: 0;
+  }
+  
+  .possibilities ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .possibilities li {
+    margin-bottom: 10px;
+  }
+  
+  .testimonials {
+    margin-bottom: 20px;
+  }
+  
+  .testimonials h2 {
+    margin-top: 0;
+  }
+  
+  .cta {
+    text-align: center;
+  }
+  
+  .primary-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .primary-button:hover {
+    background-color: #0056b3;
+  }
+  

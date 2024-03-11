@@ -1,0 +1,90 @@
+/* Home.css */
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .primary-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .primary-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .value-propositions {
+    margin-top: 40px;
+  }
+  
+  .value-prop {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  

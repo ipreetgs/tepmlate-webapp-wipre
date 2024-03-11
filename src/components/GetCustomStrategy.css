@@ -1,0 +1,50 @@
+/* GetCustomStrategy.css */
+
+.gcs-container {
+    padding: 20px;
+  }
+  
+  .gcs-container h1 {
+    margin-top: 0;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .approach {
+    margin-bottom: 20px;
+  }
+  
+  .approach h2 {
+    margin-top: 0;
+  }
+  
+  .approach ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .approach li {
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+  }
+  
+  .primary-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .primary-button:hover {
+    background-color: #0056b3;
+  }
+  
