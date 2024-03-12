@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar'; // Import the Navbar component
 import './ExploreOurServices.css'; // Import your CSS file
+import CarouselComponent from './CarouselComponent';
 
 const ExploreOurServices = () => {
   return (
@@ -22,6 +23,7 @@ const ExploreOurServices = () => {
               <li><strong>Cybersecurity and Compliance:</strong> Ensuring your digital assets are protected and compliant with relevant regulations and standards.</li>
             </ul>
           </div>
+          <CarouselComponent/>
           <div className="cta">
             <p>Find Your Solution: Not sure where to start? Book a session with our experts to discover our services more in-depth and learn how we can tailor our offerings to meet your specific needs.</p>
             <Link to="/book-session" className="primary-button">Book a Session</Link>

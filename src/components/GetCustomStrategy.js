@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar'; // Import the Navbar component
 import './GetCustomStrategy.css'; // Import your CSS file
+import CarouselComponent from './CarouselComponent';
 
 const GetCustomStrategy = () => {
   return (
@@ -21,6 +22,7 @@ const GetCustomStrategy = () => {
               <li><strong>Partnership for Success:</strong> Consider us an extension of your team, guiding you through implementation and beyond to ensure your strategy delivers the results you need.</li>
             </ul>
           </div>
+          <CarouselComponent />
           <div className="cta">
             <p>Your Next Step: Ready for a strategy that reflects your business's uniqueness? Book a session now and set the foundation for a digital-first future.</p>
             <Link to="/book-session" className="primary-button">Book a Session</Link>

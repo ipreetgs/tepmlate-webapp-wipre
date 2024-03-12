@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'; // Import your CSS file
-
+import CarouselComponent from './CarouselComponent';
 const Home = () => {
   return (
     <div className="home-container">
@@ -46,6 +46,7 @@ const Home = () => {
           <p>Offering end-to-end services from technology selection and implementation to ongoing management, ensuring that digital solutions are effectively integrated into your business operations.</p>
         </div>
       </section>
+      <CarouselComponent/>
       <section className="social-proof">
         <h2>Social Proof</h2>
         <div className="testimonial">
