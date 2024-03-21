@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar'; // Import the Navbar component
 import './UnveilDigitalPotential.css'; // Import your CSS file
+import CarouselComponent from './CarouselComponent';
 
 const UnveilDigitalPotential = () => {
   return (
@@ -26,6 +27,7 @@ const UnveilDigitalPotential = () => {
             <p>Here are some testimonials from businesses who have journeyed with us from potential to actualization:</p>
             {/* Add testimonials here */}
           </div>
+          <CarouselComponent />
           <div className="cta">
             <p>Begin Your Journey: Let's explore what your digital future could look like. Book a session with our experts today.</p>
             <Link to="/book-session" className="primary-button">Book a Session</Link>
